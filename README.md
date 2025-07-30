@@ -29,9 +29,6 @@ When a client-side error occurs within a component registered and rendered by Bu
 #### 1. Direct Component Test
 Visit `/test-page` to test if the Error Boundary works with a direct child component (should work).
 
-#### 2. BuilderComponent Test
-Visit `/hot-dog` to test the Error Boundary with a component rendered through BuilderComponent (should fail silently).
-
 ## Project Structure
 
 ```
