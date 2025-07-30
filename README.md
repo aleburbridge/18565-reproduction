@@ -40,7 +40,7 @@ Visit `/test-page` to test if the Error Boundary works with a direct child compo
 │   ├── 500.tsx                    # Static 500 error page
 │   ├── 404.tsx                    # Static 404 error page
 │   ├── test-page.tsx              # Direct Error Boundary test
-│   └── hot-dog.tsx                # BuilderComponent Error Boundary test
+│   └── hot-dog.tsx                # hot dog
 └── src/
     └── builder-registry.ts        # Builder.io component registrations
 ```
@@ -64,7 +64,7 @@ Visit `/test-page` to test if the Error Boundary works with a direct child compo
 
 4. **Test the scenarios:**
    - Visit `http://localhost:3000/test-page` - Should show 500 page (Error Boundary works)
-   - Visit `http://localhost:3000/hot-dog` - Should show blank page (Error Boundary fails)
+   - Visit `http://localhost:3000/hot-dog` - Should show hot dog
 
 ## Technical Details
 
